@@ -1,2 +1,1 @@
-# data-engineering-zoomcamp
-Data Engineering Zoomcamp by DataTalks
+This repo contains homework and notes for the Data Engineering Zoomcamp by Datatalks.Club.
