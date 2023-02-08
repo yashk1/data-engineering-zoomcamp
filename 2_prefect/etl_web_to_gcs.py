@@ -11,7 +11,7 @@ def fetch(dataset_url):
     return df
 
 
-@task(retries=3)
+@task(retries=3, log_prints=True)
 def clean(df=pd.DataFrame) -> pd.DataFrame:
     """Fix dtype issues"""
     df["lpep_pickup_datetime"] = pd.to_datetime(df["lpep_pickup_datetime"])
