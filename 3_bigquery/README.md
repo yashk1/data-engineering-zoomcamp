@@ -64,7 +64,7 @@ where PUlocationID IS NULL AND DOlocationID IS NULL;
 ## Question 4:
 What is the best strategy to optimize the table if query always filter by pickup_datetime and order by affiliated_base_number?
 - Cluster on pickup_datetime Cluster on affiliated_base_number
-- Partition by pickup_datetime Cluster on affiliated_base_number
+- Partition by pickup_datetime Cluster on affiliated_base_number 
 - Partition by pickup_datetime Partition by affiliated_base_number
 - Partition by affiliated_base_number Cluster on pickup_datetime
 
